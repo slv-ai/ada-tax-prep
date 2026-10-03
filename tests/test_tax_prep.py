@@ -1,5 +1,6 @@
+import pytest
 from ada_tax_prep.income_tax import (
-    calculate_tax_2020
+    calculate_tax_2020 , calculate_deducted_income_2020
 )
 
 def test_no_income():
